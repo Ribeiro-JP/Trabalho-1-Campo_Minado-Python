@@ -82,7 +82,7 @@ def marcar_bomba(matriz, linha, coluna):
     caso passar ela pôe a marcação e retorna a matriz alterada
     '''
     if matriz[linha][coluna] == "M":
-        print("Já tem uma bomba nessa posição!")
+        print("Já tem um marcador nessa posição!")
 
     elif matriz[linha][coluna] != "*":
         print("Essa casa já foi aberta")
@@ -402,4 +402,5 @@ while True:
         #CASO DE OPÇÃO INVÁLIDA    
         case _:
             print("Opção inválida, tente novamente!(Pressione ENTER para prosseguir)")
+
             input()
